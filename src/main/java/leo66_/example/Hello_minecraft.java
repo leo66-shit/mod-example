@@ -1,7 +1,6 @@
 package leo66_.example;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +18,10 @@ public class Hello_minecraft implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+        LOGGER.info("Hello Fabric world!");
+        LOGGER.info("开始加载模组：Hello Minecraft");
+        ModItems.registerAll();
+        ModItemGroups.registerAll();
+        LOGGER.info("模组加载完毕：Hello Minecraft");
 	}
 }
