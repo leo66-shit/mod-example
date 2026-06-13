@@ -19,14 +19,21 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL)
                     .requiresTool()
     );
-
+    public static final Block TOPAZ_ORE = new Block(
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.STONE_GRAY)
+                    .strength(3.0f, 3.0f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()
+    );
     public static void registerAll() {
         // 只注册方块
         Registry.register(Registries.BLOCK,
                 new Identifier(Hello_minecraft.MOD_ID, "topaz_block"),
                 TOPAZ_BLOCK
         );
-
+        Registry.register(Registries.BLOCK,
+                new Identifier(Hello_minecraft.MOD_ID, "topaz_ore"), TOPAZ_ORE);
         Hello_minecraft.LOGGER.info("方块加载完毕");
     }
 }

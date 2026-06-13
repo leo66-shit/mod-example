@@ -15,7 +15,10 @@ public class ModItems {
             ModBlocks.TOPAZ_BLOCK,
             new Item.Settings()
     );
-
+    public static final BlockItem TOPAZ_ORE_ITEM = new BlockItem(
+            ModBlocks.TOPAZ_ORE,
+            new Item.Settings()
+    );
     public static void registerAll() {
         // 注册黄宝石
         Registry.register(Registries.ITEM,
@@ -28,7 +31,8 @@ public class ModItems {
                 new Identifier(Hello_minecraft.MOD_ID, "topaz_block"),
                 TOPAZ_BLOCK_ITEM
         );
-
+        Registry.register(Registries.ITEM,
+                new Identifier(Hello_minecraft.MOD_ID, "topaz_ore"), TOPAZ_ORE_ITEM);
         Hello_minecraft.LOGGER.info("物品加载完毕");
     }
 }
