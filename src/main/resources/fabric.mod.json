@@ -26,13 +26,6 @@
 			"leo66_.example.client.Hello_minecraftDataGenerator"
 		]
 	},
-	"mixins": [
-		"hello_minecraft.mixins.json",
-		{
-			"config": "hello_minecraft.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~1.20.3",

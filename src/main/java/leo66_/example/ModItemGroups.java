@@ -10,11 +10,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup MYMOD_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.TOPAZ))  // 组图标
-            .displayName(Text.translatable("itemGroup.mymod.main"))  // 显示名称
+            .icon(() -> new ItemStack(ModItems.TOPAZ))
+            .displayName(Text.translatable("itemGroup.hello_minecraft.main"))
             .entries((context, entries) -> {
-                // 将物品添加到组中
-                entries.add(ModItems.TOPAZ);
+                entries.add(ModItems.TOPAZ);            // 黄宝石
+                entries.add(ModItems.TOPAZ_BLOCK_ITEM);  // 黄宝石方块（物品形式）
             })
             .build();
 

@@ -1,19 +1,34 @@
 package leo66_.example;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;  // ← 添加导入
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    // 创建物品实例
+    // 普通物品
     public static final Item TOPAZ = new Item(new Item.Settings());
 
+    // 方块物品（从 ModBlocks 获取方块）
+    public static final BlockItem TOPAZ_BLOCK_ITEM = new BlockItem(
+            ModBlocks.TOPAZ_BLOCK,
+            new Item.Settings()
+    );
+
     public static void registerAll() {
-        // 将物品注册到游戏中
+        // 注册黄宝石
         Registry.register(Registries.ITEM,
-                new Identifier(Hello_minecraft.MOD_ID, "topaz"),  // 标识符: mymod:topaz
+                new Identifier(Hello_minecraft.MOD_ID, "topaz"),
                 TOPAZ
         );
+
+        // 注册黄宝石方块物品
+        Registry.register(Registries.ITEM,
+                new Identifier(Hello_minecraft.MOD_ID, "topaz_block"),
+                TOPAZ_BLOCK_ITEM
+        );
+
+        Hello_minecraft.LOGGER.info("物品加载完毕");
     }
 }

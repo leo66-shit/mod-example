@@ -1,4 +1,6 @@
 {
-  "item.mymod.topaz": "黄宝石",
-  "itemGroup.mymod.main": "我的模组"
+  "item.hello_minecraft.topaz": "黄宝石",
+  "item.hello_minecraft.topaz_block": "黄宝石块",
+  "block.hello_minecraft.topaz_block": "黄宝石块",
+  "itemGroup.hello_minecraft.main": "我的模组"
 }

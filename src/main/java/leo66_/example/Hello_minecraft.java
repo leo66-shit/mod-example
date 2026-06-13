@@ -20,6 +20,7 @@ public class Hello_minecraft implements ModInitializer {
 
         LOGGER.info("Hello Fabric world!");
         LOGGER.info("开始加载模组：Hello Minecraft");
+        ModBlocks.registerAll();
         ModItems.registerAll();
         ModItemGroups.registerAll();
         LOGGER.info("模组加载完毕：Hello Minecraft");
