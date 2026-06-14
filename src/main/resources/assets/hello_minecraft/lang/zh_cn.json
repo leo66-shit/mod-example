@@ -4,5 +4,10 @@
   "block.hello_minecraft.topaz_block": "黄宝石块",
   "item.hello_minecraft.topaz_ore": "粗黄宝石",
   "block.hello_minecraft.topaz_ore_block": "黄宝石矿石",
+  "item.hello_minecraft.topaz_pickaxe": "黄宝石镐",
+  "item.hello_minecraft.topaz_axe": "黄宝石斧",
+  "item.hello_minecraft.topaz_shovel": "黄宝石锹",
+  "item.hello_minecraft.topaz_hoe": "黄宝石锄",
+  "item.hello_minecraft.topaz_sword": "黄宝石剑",
   "itemGroup.hello_minecraft.main": "我的模组"
 }

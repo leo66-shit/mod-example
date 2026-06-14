@@ -17,6 +17,12 @@ public class ModItemGroups {
                 entries.add(ModItems.TOPAZ_ORE);
                 entries.add(ModItems.TOPAZ_BLOCK_ITEM);  // 黄宝石方块（物品形式）
                 entries.add(ModItems.TOPAZ_ORE_BLOCK_ITEM);
+                //工具
+                entries.add(ModItems.TOPAZ_PICKAXE);
+                entries.add(ModItems.TOPAZ_AXE);
+                entries.add(ModItems.TOPAZ_SHOVEL);
+                entries.add(ModItems.TOPAZ_HOE);
+                entries.add(ModItems.TOPAZ_SWORD);
             })
             .build();
 
@@ -25,5 +31,6 @@ public class ModItemGroups {
                 new Identifier(Hello_minecraft.MOD_ID, "main"),
                 MYMOD_GROUP
         );
+        Hello_minecraft.LOGGER.info("物品分组加载完毕");
     }
 }

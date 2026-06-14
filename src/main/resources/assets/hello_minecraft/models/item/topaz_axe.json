@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "hello_minecraft:item/topaz_axe"
+  }
+}

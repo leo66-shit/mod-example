@@ -1,6 +1,7 @@
 package leo66_.example;
 
 import leo66_.example.block.TopazBlock;
+import leo66_.example.block.TopazOreBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
@@ -19,7 +20,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.METAL)
                     .requiresTool()
     );
-    public static final Block TOPAZ_ORE_BLOCK = new Block(
+    public static final Block TOPAZ_ORE_BLOCK = new TopazOreBlock(
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .strength(3.0f, 3.0f)
