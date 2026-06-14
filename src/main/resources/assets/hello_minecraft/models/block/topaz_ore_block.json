@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hello_minecraft:block/topaz_ore_block"
+  }
+}

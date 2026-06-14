@@ -2,7 +2,7 @@
   "item.hello_minecraft.topaz": "黄宝石",
   "item.hello_minecraft.topaz_block": "黄宝石块",
   "block.hello_minecraft.topaz_block": "黄宝石块",
-  "item.hello_minecraft.topaz_ore": "黄宝石矿石",
-  "block.hello_minecraft.topaz_ore": "黄宝石矿石",
+  "item.hello_minecraft.topaz_ore": "粗黄宝石",
+  "block.hello_minecraft.topaz_ore_block": "黄宝石矿石",
   "itemGroup.hello_minecraft.main": "我的模组"
 }

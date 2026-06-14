@@ -14,7 +14,9 @@ public class ModItemGroups {
             .displayName(Text.translatable("itemGroup.hello_minecraft.main"))
             .entries((context, entries) -> {
                 entries.add(ModItems.TOPAZ);            // 黄宝石
+                entries.add(ModItems.TOPAZ_ORE);
                 entries.add(ModItems.TOPAZ_BLOCK_ITEM);  // 黄宝石方块（物品形式）
+                entries.add(ModItems.TOPAZ_ORE_BLOCK_ITEM);
             })
             .build();
 
