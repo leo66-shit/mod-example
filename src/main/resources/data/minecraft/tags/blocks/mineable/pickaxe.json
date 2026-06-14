@@ -2,6 +2,6 @@
   "replace": false,
   "values": [
     "hello_minecraft:topaz_block",
-    "hello_minecraft:topaz_ore"
+    "hello_minecraft:topaz_ore_block"
   ]
 }
